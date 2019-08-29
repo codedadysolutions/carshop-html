@@ -50,16 +50,17 @@
                 flex: 1;
                 align-items: center;
                 justify-content: center;
+                font-size:10px;
             }
             .item:hover {
                 display: flex;
                 flex: 1;
                 align-items: center;
-                font-family: 'Alice';font-size: 22px;
+                //font-family: 'Alice';font-size: 22px;
                 justify-content: center;
                 // background-color:gray;
                 // color:black;
-                font-size: 28px;
+                font-size: 8px;
             }
         }
         .search {
@@ -164,26 +165,35 @@
                         display:flex;
                         flex:1;
                         padding-left: 30px;
-                        padding-right:20px;
+                        padding-right:30px;
+                    }
+                    
+                    .word1{
+                        display:flex;
+                        padding-right:30px;
+                        padding-left:30px;
                     }
                     .child2{
                         display:flex;
                         flex:1;
                         padding-left:50px;
+                        
                     }
-                    .word2{
+                    .word2
+                    {
+                        display:flex;
+                        flex:1;
+                        padding-left: 20px;
+                    }
+                    .blank {
                         display: flex;
-                    
-                        padding-left:20px;
+                        flex: 1;
+                        margin-top: 20px;
                     }
                     
-                }
+                
             }
-            .blank {
-                display: flex;
-                flex: 1;
-                margin-top: 20px;
-            }
+           
         }
    
     }

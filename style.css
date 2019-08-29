@@ -272,7 +272,7 @@ body, html {
   padding-right: 60px;
 }
 
-.content .section .textcontent .contents .item .child1 {
+.content .section .textcontent .contents .child1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,17 +283,18 @@ body, html {
   padding-right: 20px;
 }
 
-.content .section .textcontent .contents .item .child2 {
+.content .section .textcontent .contents .child2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding-left: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
-.content .section .textcontent .contents .item .word2 {
+.content .section .textcontent .contents .word2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
